@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro / Inicio de Sesión</title>
+    <link rel="stylesheet" href="../css/loginTrabajador.css"> <!-- Aquí puedes agregar tus estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido, por favor elige una opción</h2>
+
+        <!-- Sección de Registro -->
+        <div class="form-container">
+            <h3>Registrar un nuevo trabajador</h3>
+            <form id="registro-form-trabajador" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="servicio">Tipo de Servicio que Ofreces:</label>
+                    <input type="text" id="servicio" name="servicio" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="ubicacion">Ubicación:</label>
+                    <input type="text" id="ubicacion" name="ubicacion" required>
+                </div>
+        
+                <button type="submit" class="submit-btn">Registrar</button>
+            </form>
+        </div>
+        
+
+        <!-- Separador entre los formularios -->
+        <hr>
+
+        <!-- Sección de Inicio de Sesión -->
+        <div class="form-container">
+            <h3>Iniciar sesión como trabajador</h3>
+            <form id="login-form-trabajador" method="POST">
+                <div class="form-group">
+                    <label for="correoInicio">Correo Electrónico:</label>
+                    <input type="email" id="correoInicio" name="correo" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="contraseñaInicio">Contraseña:</label>
+                    <input type="password" id="contraseñaInicio" name="contrasena" required>
+                </div>
+        
+                <button type="submit" class="submit-btn">Iniciar Sesión</button>
+            </form>
+        </div>
+        
+
+    <script src="/js/app-trabajador.js"></script>
+
+</body>
+</html>

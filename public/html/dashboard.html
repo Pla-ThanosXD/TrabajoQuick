@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"/>
+		<title>Quick - dashboard</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+	</head>
+	<body>
+
+		<!-- Esta es la parte del navbar donde está el botón de registro -->
+<header>
+	<div class="container-navbar">
+	  <nav class="navbar container">
+		<img src="/images/logo2-removebg-preview.png" alt="Logo Quick" class="logo-navbar">
+		<div class="menu-container">
+
+   
+
+    <!-- Donde mostraremos los resultados -->
+    <div id="searchResults"></div>
+
+		  <ul class="menu">
+			<li><a href="#">Inicio</a></li>
+			<li><a href="../html/trabajadores.html">Trabajadores</a></li>
+			<li><a href="#">Asesorías</a></li>
+			<li><a href="#">PQR</a></li>
+			<li><a href="#">Conócenos más</a></li>
+
+		  </ul>
+		  
+		  <!-- Este es el botón que debe desaparecer cuando el usuario inicie sesión -->
+		  <a href="../html/loginUsuario.html"  class="btn-register" id="btn-register">Regístrate ahora →</a>
+		  
+		  <!-- Aquí va la bolita con las opciones de Perfil y Cerrar sesión -->
+		  <div class="user-profile">
+			<img src="/images/porDefecto.jpg" alt="Perfil" class="profile-pic" id="profilePic">
+			<div class="dropdown-content" id="dropdownMenu">
+			  <a href="../html/vistaUsuario.html">Perfil</a>
+			  <a href="../index.html" id="logout">Cerrar sesión</a>
+			</div>
+		  </div>
+		  
+			</div>
+		  </div>
+		</div>
+	  </nav>
+	</div>
+  </header>
+
+		<section class="banner">
+    <div class="content-banner">
+        <div class="text-content">
+            <h2>Ayudar con tus necesidades es nuestra responsabilidad</h2>
+			<p>Cualquier Trabajo puedes encontrar acá</p>
+            <div class="buttons">
+                <a href="#" class="button">Buscar Asesoría</a>
+                <a href="../html/loginTrabajador.html" target="_blank" class="button">Publicar Trabajo</a>
+            </div>
+        </div>
+        <img src="/images/LogoArreglado__1_-removebg-preview.png" alt="Icono de trabajador" class="worker-icon" />
+    </div>
+</section>
+
+<section class="container top-categories">
+    <h1 class="heading-1">Nuestros servicios más pedidos!</h1>
+    <p class="subheading">Acá puedes encontrar servicios muy comunes que podrías necesitar</p>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide card-category">
+                <img src="/images/reparaciondetelevision.webp" alt="Plomería">
+                <div class="overlay">
+                    <p>Servicio de plomería</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+            <div class="swiper-slide card-category">
+                <img src="/images/ServicioPintura.webp" alt="Pintura">
+                <div class="overlay">
+                    <p>Servicio de pintura</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+            <div class="swiper-slide card-category">
+                <img src="/images/MantenimientoComputadoras.jpeg" alt="Computadoras">
+                <div class="overlay">
+                    <p>Servicio de computadoras</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+            <div class="swiper-slide card-category">
+                <img src="/images/ServicioPlomeria.png" alt="Carpintería"  width: 320px; height: 280px;>
+                <div class="overlay">
+                    <p>Servicio de plomeria</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+            <div class="swiper-slide card-category">
+                <img src="/images/ServiciodeElectricidad.jpg" alt="Electricista">
+                <div class="overlay">
+                    <p>Servicio de electricista</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+            <div class="swiper-slide card-category">
+                <img src="/images/Reparaciondeelectrodomeesticos.jpg" alt="Jardinería">
+                <div class="overlay">
+                    <p>Servicio de electrodomesticos</p>
+                    <a href="#">Encontrar trabajador →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+			
+			
+
+
+
+			<section class="seguridad">
+				<div class="contenido">
+					<img class="img-segurida" src="/images/seguridad2-removebg-preview.png" alt="Ilustración de seguridad">
+					<div class="texto">
+						<h2>Recuerda proteger tu cuenta</h2>
+						<p>Ten en cuenta cuidar muy bien tu usuario y contraseña para no tener inconvenientes con la plataforma, no compartas estos datos para mantener tu seguridad.</p>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="services-container">
+				<h1 class="lol">¡La mejor empresa de servicios <br>domésticos a domicilio!</h1>
+				<p class="lal">¿Qué esperas para pedir tu servicio?</p>
+			</div>
+			<div class="cards-wrapper">
+				<div class="service-card">
+					<img src="/images/persons.png" alt="Ícono personas">
+					<h2>¿Quiénes somos?</h2>
+					<p>	En Quick, podrás encontrar una amplia variedad de servicios domésticos a domicilio, incluyendo fontanería, reparación de fachadas, mantenimiento del hogar, mecánicos, profesores privados, electricistas y mucho más. Nuestra plataforma te conecta con profesionales calificados para garantizar soluciones rápidas y eficientes en tu hogar.</p>
+				</div>
+				<div class="service-card">
+					<img src="/images/empresas.png" alt="Ícono servicios">
+					<h2>Encuentra tus servicios</h2>
+					<p>Con Quick, podrás publicar tus servicios como trabajador independiente y llegar a un mayor número de clientes que necesitan de tu experiencia. Nuestra plataforma te permite ofrecer tus habilidades en diversas áreas, desde reparaciones y mantenimiento hasta enseñanza y asesorías. Amplía tu alcance, recibe más solicitudes y aumenta tus ingresos de manera sencilla y eficiente.</p>
+				</div>
+				<div class="service-card">
+					<img src="/images/manos.png" alt="Ícono manos">
+					<h2>Publica tus servicios</h2>
+					<p>Publica tus servicios como trabajador independiente para ampliar tu alcance y generar ingresos de manera efectiva. Con Quick, conectarás con clientes que buscan exactamente lo que ofreces, permitiéndote construir una reputación sólida y aumentar tus oportunidades laborales.</p>
+				</div>
+			</div>
+
+
+			  <!-- Sección de Registro -->
+			  <section class="registro">
+				<h1>¡Regístrate para disfrutar<br> de esta plataforma!</h1>
+				<button class="btn-registrar">Registrarse ahora →</button>
+			</section>
+			
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: baristas@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Programación para el mundo &copy; 2022
+					</p>
+
+					<img src="/images" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	var swiper = new Swiper(".swiper-container", {
+	  slidesPerView: 3, /* Muestra 3 tarjetas a la vez */
+	  spaceBetween: 20, /* Espacio entre tarjetas */
+	  loop: true, /* Hace que el carrusel sea infinito */
+	  autoplay: {
+		delay: 2000, /* Cada 2 segundos cambia de tarjeta */
+		disableOnInteraction: false, /* Sigue auto-reproduciéndose aunque el usuario interactúe */
+	  },
+	  breakpoints: {
+		1024: { slidesPerView: 3 }, /* En pantallas grandes, 3 tarjetas */
+		768: { slidesPerView: 2 }, /* En tablets, 2 tarjetas */
+		480: { slidesPerView: 1 }, /* En móviles, 1 tarjeta */
+	  },
+	});
+  </script>
+
+<script src="/js/auth.js"></script>
+<script src="/js/script.js"></script>
+<script src="app-trabajador.js"></script>
+
+  
+</body>
+</html>

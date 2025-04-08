@@ -1,0 +1,93 @@
+.worker-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.worker-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.worker-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de las tarjetas */
+.worker-card h3 {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+
+.worker-card p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.worker-card strong {
+    color: #4CAF50;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.worker-info {
+    margin-bottom: 2rem;
+}
+
+.worker-info p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.dashboard-buttons button {
+    background-color: var(--primary-color);
+    color: rgb(7, 7, 7);
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+    background-color: #218838;
+}
+
+.dashboard-buttons button:active {
+    transform: scale(0.98);
+}
